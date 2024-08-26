@@ -10,8 +10,6 @@ def custom_write(file_name, strings):
         strings_positions[key_turple] = i
     file.close()
     return strings_positions
-    pass
-
 
 
 info = [
@@ -23,4 +21,4 @@ info = [
 
 result = custom_write('test.txt', info)
 for elem in result.items():
-  print(elem)
+    print(elem)
